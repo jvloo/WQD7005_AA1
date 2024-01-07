@@ -43,9 +43,9 @@ For more examples, please refer to the [Documentation](https://github.com/jvloo/
 ```
 
 ## Contact
-Name: LOO JIA HAO
-Student No: 17218692/1
-Student Email: 17218692 (at) siswa (dot) um (dot) edu (dot) my
+- Name: LOO JIA HAO
+- Student No: 17218692/1
+- Student Email: 17218692 (at) siswa (dot) um (dot) edu (dot) my
 
 ---
 Feel free to explore each folder for detailed scripts, reports, and documentation related to specific phases of the project.
