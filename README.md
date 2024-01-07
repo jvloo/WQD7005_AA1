@@ -31,8 +31,8 @@ For more examples, please refer to the [Documentation](https://github.com/jvloo/
 ## Folder Structure
 ```
 .
-├── **WQD7005_AA1_Analysis** # Contains the exploratory data analysis, modeling scripts, and model comparison files.
-├── **WQD7005_AA1_Data_Integration** # Includes Talend Data Integration scripts.
+├── **WQD7005_AA1_Analysis** # Contains SAS e-Miner analysis & modeling scripts.
+├── **WQD7005_AA1_Data_Integration** # Includes Talend Data Integration preprocessing scripts.
 ├── **WQD7005_Report**
 ├──── **Assessment.pdf** # The assessment requirement file of this project.
 ├──── **Report.pdf** # The documentation (report) file of this project.
