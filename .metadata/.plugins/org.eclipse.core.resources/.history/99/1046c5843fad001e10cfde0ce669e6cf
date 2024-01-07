@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_vW8GsKynEe6o9fSpf5z5Bg" id="_vW7foKynEe6o9fSpf5z5Bg" label="OracleCreateSourceTable" version="0.1" item="_vW8GsqynEe6o9fSpf5z5Bg">
+    <author href="../../../talend.project#_vKSKwKynEe6o9fSpf5z5Bg"/>
+    <additionalProperties xmi:id="_vW8twKynEe6o9fSpf5z5Bg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_vW8twaynEe6o9fSpf5z5Bg" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_vW8twqynEe6o9fSpf5z5Bg" key="created_date" value="2024-01-06T22:54:53.276+0800"/>
+    <additionalProperties xmi:id="_vW8tw6ynEe6o9fSpf5z5Bg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_vW8txKynEe6o9fSpf5z5Bg" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_vW8txaynEe6o9fSpf5z5Bg" key="modified_date" value="2024-01-06T22:54:53.276+0800"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_vW8GsaynEe6o9fSpf5z5Bg" path="Oracle/system"/>
+  <TalendProperties:SQLPatternItem xmi:id="_vW8GsqynEe6o9fSpf5z5Bg" property="_vW8GsKynEe6o9fSpf5z5Bg" state="_vW8GsaynEe6o9fSpf5z5Bg" system="true" eltName="Oracle">
+    <content href="OracleCreateSourceTable_0.1.item#/"/>
+  </TalendProperties:SQLPatternItem>
+</xmi:XMI>

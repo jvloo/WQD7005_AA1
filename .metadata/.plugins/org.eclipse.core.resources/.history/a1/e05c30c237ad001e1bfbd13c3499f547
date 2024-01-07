@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_vYNSAKynEe6o9fSpf5z5Bg" id="_vYMq8KynEe6o9fSpf5z5Bg" label="VerticaMergeUpdate" version="0.1" item="_vYNSAqynEe6o9fSpf5z5Bg">
+    <author href="../../../talend.project#_vKSKwKynEe6o9fSpf5z5Bg"/>
+    <additionalProperties xmi:id="_vYOgIKynEe6o9fSpf5z5Bg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_vYOgIaynEe6o9fSpf5z5Bg" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_vYOgIqynEe6o9fSpf5z5Bg" key="created_date" value="2024-01-06T22:54:53.410+0800"/>
+    <additionalProperties xmi:id="_vYOgI6ynEe6o9fSpf5z5Bg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_vYOgJKynEe6o9fSpf5z5Bg" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_vYOgJaynEe6o9fSpf5z5Bg" key="modified_date" value="2024-01-06T22:54:53.410+0800"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_vYNSAaynEe6o9fSpf5z5Bg" path="Vertica/system"/>
+  <TalendProperties:SQLPatternItem xmi:id="_vYNSAqynEe6o9fSpf5z5Bg" property="_vYNSAKynEe6o9fSpf5z5Bg" state="_vYNSAaynEe6o9fSpf5z5Bg" system="true" eltName="Vertica">
+    <content href="VerticaMergeUpdate_0.1.item#/"/>
+  </TalendProperties:SQLPatternItem>
+</xmi:XMI>
