@@ -31,15 +31,15 @@ For more examples, please refer to the [Documentation](https://github.com/jvloo/
 ## Folder Structure
 ```
 .
-├── **WQD7005_AA1_Analysis** # Contains SAS e-Miner analysis & modeling scripts.
-├── **WQD7005_AA1_Data_Integration** # Includes Talend Data Integration preprocessing scripts.
-├── **WQD7005_Report**
-├──── **Assessment.pdf** # The assessment requirement file of this project.
-├──── **Report.pdf** # The documentation (report) file of this project.
-├── **dataset**
-├──── **E Commerce Dataset.xlsx** # Raw dataset in Excel format.
-├──── **E Commerce Dataset.csv** # Raw dataset in CSV format.
-├──── **E Commerce Dataset (processed).csv** # Preprocessed dataset in CSV format.
+├── WQD7005_AA1_Analysis # Contains SAS e-Miner analysis & modeling scripts.
+├── WQD7005_AA1_Data_Integration # Includes Talend Data Integration preprocessing scripts.
+├── WQD7005_Report
+├──── Assessment.pdf # The assessment requirement file of this project.
+├──── Report.pdf # The documentation (report) file of this project.
+├── dataset
+├──── E Commerce Dataset.xlsx # Raw dataset in Excel format.
+├──── E Commerce Dataset.csv # Raw dataset in CSV format.
+├──── E Commerce Dataset (processed).csv # Preprocessed dataset in CSV format.
 ```
 
 ## Contact
