@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500"
+ Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="csv"
+ Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport"
+ IFileName="D:\Study\WQD7005 Data Mining\_final\AA1\E Commerce Dataset (processed).csv"
+ AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword" RawCreateTime="2020210200.8"
+ CreateTime="07JAN2024:01:30:01" RunId="9f38067d-837b-4527-94c0-7e7656143bc1" RawLastTimeRun="2020210644.9"
+ RawRunTime="3.239000082" LastTimeRun="07JAN2024:01:37:25" RunTime="0 Hr. 0 Min. 3.24 Sec."
+>
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES ><![CDATA[
+USERTRAINCODE
+USERSCORECODE
+USERREPORTCODE
+VARIABLESETDELTA
+DELTACODE
+]]>
+</FILEPROPERTIES></_ROOT_>

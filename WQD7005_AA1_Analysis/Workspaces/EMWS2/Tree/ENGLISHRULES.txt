@@ -1,0 +1,277 @@
+*------------------------------------------------------------*
+ Node = 7
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 7
+ Number of Observations = 2283
+ Predicted: Churn=true = 0.05
+ Predicted: Churn=false = 0.95
+ 
+*------------------------------------------------------------*
+ Node = 11
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND DaySinceLastOrder >= 1.5 or MISSING
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 11
+ Number of Observations = 232
+ Predicted: Churn=true = 0.62
+ Predicted: Churn=false = 0.38
+ 
+*------------------------------------------------------------*
+ Node = 13
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND PreferedOrderCat IS ONE OF: LAPTOP & ACCESSORY, OTHERS, FASHION, GROCERY or MISSING
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 13
+ Number of Observations = 572
+ Predicted: Churn=true = 0.10
+ Predicted: Churn=false = 0.90
+ 
+*------------------------------------------------------------*
+ Node = 18
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND PreferredPaymentMode IS ONE OF: DEBIT CARD, CREDIT CARD, UPI or MISSING
+AND DaySinceLastOrder < 1.5
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 18
+ Number of Observations = 122
+ Predicted: Churn=true = 0.50
+ Predicted: Churn=false = 0.50
+ 
+*------------------------------------------------------------*
+ Node = 21
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND MaritalStatus IS ONE OF: SINGLE, DIVORCED or MISSING
+AND DaySinceLastOrder < 1.5
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 21
+ Number of Observations = 51
+ Predicted: Churn=true = 0.96
+ Predicted: Churn=false = 0.04
+ 
+*------------------------------------------------------------*
+ Node = 33
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND PreferredPaymentMode IS ONE OF: COD, E WALLET
+AND PreferedOrderCat IS ONE OF: LAPTOP & ACCESSORY
+AND MaritalStatus IS ONE OF: DIVORCED, MARRIED
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 33
+ Number of Observations = 9
+ Predicted: Churn=true = 0.00
+ Predicted: Churn=false = 1.00
+ 
+*------------------------------------------------------------*
+ Node = 34
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND SatisfactionScore < 1.5
+AND PreferredPaymentMode IS ONE OF: COD, E WALLET
+AND MaritalStatus IS ONE OF: SINGLE or MISSING
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 34
+ Number of Observations = 7
+ Predicted: Churn=true = 0.29
+ Predicted: Churn=false = 0.71
+ 
+*------------------------------------------------------------*
+ Node = 35
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND SatisfactionScore >= 1.5 or MISSING
+AND PreferredPaymentMode IS ONE OF: COD, E WALLET
+AND MaritalStatus IS ONE OF: SINGLE or MISSING
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 35
+ Number of Observations = 42
+ Predicted: Churn=true = 0.93
+ Predicted: Churn=false = 0.07
+ 
+*------------------------------------------------------------*
+ Node = 36
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND PreferredPaymentMode IS ONE OF: DEBIT CARD, CREDIT CARD, UPI or MISSING
+AND OrderCount < 8.5 or MISSING
+AND DaySinceLastOrder >= 1.5 or MISSING
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 36
+ Number of Observations = 302
+ Predicted: Churn=true = 0.24
+ Predicted: Churn=false = 0.76
+ 
+*------------------------------------------------------------*
+ Node = 37
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND PreferredPaymentMode IS ONE OF: DEBIT CARD, CREDIT CARD, UPI or MISSING
+AND OrderCount >= 8.5
+AND DaySinceLastOrder >= 1.5 or MISSING
+AND Complain IS ONE OF: FALSE or MISSING
+then 
+ Tree Node Identifier   = 37
+ Number of Observations = 8
+ Predicted: Churn=true = 1.00
+ Predicted: Churn=false = 0.00
+ 
+*------------------------------------------------------------*
+ Node = 39
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND SatisfactionScore >= 3.5 or MISSING
+AND MaritalStatus IS ONE OF: MARRIED
+AND DaySinceLastOrder < 1.5
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 39
+ Number of Observations = 19
+ Predicted: Churn=true = 0.95
+ Predicted: Churn=false = 0.05
+ 
+*------------------------------------------------------------*
+ Node = 42
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND PreferredPaymentMode IS ONE OF: DEBIT CARD, CREDIT CARD, COD, UPI or MISSING
+AND PreferredLoginDevice IS ONE OF: MOBILE PHONE or MISSING
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 42
+ Number of Observations = 158
+ Predicted: Churn=true = 0.19
+ Predicted: Churn=false = 0.81
+ 
+*------------------------------------------------------------*
+ Node = 43
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND PreferredPaymentMode IS ONE OF: E WALLET
+AND PreferredLoginDevice IS ONE OF: MOBILE PHONE or MISSING
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 43
+ Number of Observations = 9
+ Predicted: Churn=true = 1.00
+ Predicted: Churn=false = 0.00
+ 
+*------------------------------------------------------------*
+ Node = 45
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND PreferredLoginDevice IS ONE OF: COMPUTER
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE
+AND Gender IS ONE OF: FEMALE
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 45
+ Number of Observations = 19
+ Predicted: Churn=true = 0.89
+ Predicted: Churn=false = 0.11
+ 
+*------------------------------------------------------------*
+ Node = 56
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND PreferredPaymentMode IS ONE OF: COD, E WALLET
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE or MISSING
+AND MaritalStatus IS ONE OF: DIVORCED, MARRIED
+AND Complain IS ONE OF: FALSE or MISSING
+AND CityTier < 1.5
+then 
+ Tree Node Identifier   = 56
+ Number of Observations = 19
+ Predicted: Churn=true = 0.32
+ Predicted: Churn=false = 0.68
+ 
+*------------------------------------------------------------*
+ Node = 57
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND PreferredPaymentMode IS ONE OF: COD, E WALLET
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE or MISSING
+AND MaritalStatus IS ONE OF: DIVORCED, MARRIED
+AND Complain IS ONE OF: FALSE or MISSING
+AND CityTier >= 1.5 or MISSING
+then 
+ Tree Node Identifier   = 57
+ Number of Observations = 20
+ Predicted: Churn=true = 0.85
+ Predicted: Churn=false = 0.15
+ 
+*------------------------------------------------------------*
+ Node = 62
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND SatisfactionScore < 3.5
+AND OrderAmountHikeFromlastYear < 12.5
+AND MaritalStatus IS ONE OF: MARRIED
+AND DaySinceLastOrder < 1.5
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 62
+ Number of Observations = 5
+ Predicted: Churn=true = 1.00
+ Predicted: Churn=false = 0.00
+ 
+*------------------------------------------------------------*
+ Node = 63
+*------------------------------------------------------------*
+if Tenure < 1.5
+AND SatisfactionScore < 3.5
+AND OrderAmountHikeFromlastYear >= 12.5 or MISSING
+AND MaritalStatus IS ONE OF: MARRIED
+AND DaySinceLastOrder < 1.5
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 63
+ Number of Observations = 9
+ Predicted: Churn=true = 0.22
+ Predicted: Churn=false = 0.78
+ 
+*------------------------------------------------------------*
+ Node = 66
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND PreferredPaymentMode IS ONE OF: COD
+AND PreferredLoginDevice IS ONE OF: COMPUTER
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE
+AND Gender IS ONE OF: MALE or MISSING
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 66
+ Number of Observations = 7
+ Predicted: Churn=true = 1.00
+ Predicted: Churn=false = 0.00
+ 
+*------------------------------------------------------------*
+ Node = 67
+*------------------------------------------------------------*
+if Tenure >= 1.5 or MISSING
+AND PreferredPaymentMode IS ONE OF: DEBIT CARD, CREDIT CARD or MISSING
+AND PreferredLoginDevice IS ONE OF: COMPUTER
+AND PreferedOrderCat IS ONE OF: MOBILE, MOBILE PHONE
+AND Gender IS ONE OF: MALE or MISSING
+AND Complain IS ONE OF: TRUE
+then 
+ Tree Node Identifier   = 67
+ Number of Observations = 46
+ Predicted: Churn=true = 0.33
+ Predicted: Churn=false = 0.67
+ 

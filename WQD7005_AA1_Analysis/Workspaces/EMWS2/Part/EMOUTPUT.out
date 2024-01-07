@@ -1,0 +1,73 @@
+*------------------------------------------------------------*
+User:                xavie
+Date:                January 07, 2024
+Time:                01:44:53
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+Role         Level         Count
+ 
+ID         INTERVAL          1
+INPUT      INTERVAL          8
+INPUT      NOMINAL           6
+TARGET     NOMINAL           1
+ 
+ 
+ 
+ 
+Partition Summary
+ 
+                                     Number of
+Type             Data Set          Observations
+ 
+DATA        EMWS2.FIMPORT_train        5630
+TRAIN       EMWS2.Part_TRAIN           3939
+VALIDATE    EMWS2.Part_VALIDATE        1691
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Summary Statistics for Class Targets
+ 
+Data=DATA
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+ Churn         .         false         4682      83.1616
+ Churn         .         true           948      16.8384
+ 
+ 
+Data=TRAIN
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+ Churn         .         false         3276      83.1683
+ Churn         .         true           663      16.8317
+ 
+ 
+Data=VALIDATE
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+ Churn         .         false         1406      83.1461
+ Churn         .         true           285      16.8539

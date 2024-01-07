@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row2.PreferredPaymentMode">
+  <variables name="row2.CustomerID" value="0" talendType="id_Integer"/>
+  <variables name="row2.Churn" value="false" talendType="id_Boolean"/>
+  <variables name="row2.Tenure" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.PreferredLoginDevice" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.CityTier" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.PreferredPaymentMode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Gender" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.HourSpendOnApp" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.PreferedOrderCat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.SatisfactionScore" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.MaritalStatus" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Complain" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row2.OrderAmountHikeFromlastYear" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.CouponUsed" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.OrderCount" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.DaySinceLastOrder" value="null" talendType="id_Integer" nullable="true"/>
+</expression:EMFExpression>

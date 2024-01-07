@@ -1,0 +1,18 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+Variable Importance
+
+Obs    NAME                           LABEL    NRULES    IMPORTANCE    VIMPORTANCE     RATIO
+
+  1    Tenure                                    24        1.00000       1.00000      1.00000
+  2    Complain                                  17        0.44046       0.37343      0.84782
+  3    DaySinceLastOrder                         10        0.34004       0.18791      0.55262
+  4    PreferedOrderCat                          15        0.25687       0.08118      0.31605
+  5    MaritalStatus                              8        0.24292       0.20854      0.85846
+  6    SatisfactionScore                          9        0.19960       0.03940      0.19741
+  7    CityTier                                   7        0.15333       0.05509      0.35931
+  8    PreferredPaymentMode                       5        0.14210       0.09440      0.66430
+  9    OrderCount                                 3        0.09977       0.01297      0.12996
+ 10    OrderAmountHikeFromlastYear                3        0.08805       0.02574      0.29229
+ 11    PreferredLoginDevice                       1        0.05621       0.04874      0.86707

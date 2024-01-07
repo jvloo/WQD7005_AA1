@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+D:\Study\WQD7005 Data Mining\_final\AA1\WQD7005_AA1_Data_Integration\.metadata\.plugins\org.eclipse.jdt.core
+381365575.index
+2517885175.index
+2164628199.index
+2344082349.index
+3803541646.index
+2546575847.index
+1658373924.index
+1273043962.index
+2241318107.index
+2915549434.index
+731228960.index
+2316193243.index

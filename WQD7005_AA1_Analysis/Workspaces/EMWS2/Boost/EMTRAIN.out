@@ -1,0 +1,39 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+Role         Level         Count
+
+ID         INTERVAL          2    
+INPUT      INTERVAL          8    
+INPUT      NOMINAL           6    
+TARGET     NOMINAL           1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Model Events
+
+                                  Number
+                   Measurement      of
+Target    Event       Level       Levels      Order       Label
+
+Churn     TRUE       NOMINAL         2      Descending         
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Predicted and decision variables
+
+Type         Variable        Label
+
+TARGET       Churn                                 
+PREDICTED    P_Churntrue     Predicted: Churn=true 
+RESIDUAL     R_Churntrue     Residual: Churn=true  
+PREDICTED    P_Churnfalse    Predicted: Churn=false
+RESIDUAL     R_Churnfalse    Residual: Churn=false 
+FROM         F_Churn         From: Churn           
+INTO         I_Churn         Into: Churn           
